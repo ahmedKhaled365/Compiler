@@ -1,0 +1,33 @@
+digraph {
+
+	ordering=out;
+	ranksep=.4;
+	bgcolor="0 .4 .7"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="black"
+		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, regular"];
+	edge [arrowsize=.5, color="black", style="regular"]
+
+  n0 [label="Startgen...rithExpr"];
+  n1 [label="+"];
+  n1 [label="+"];
+  n2 [label="Factor"];
+  n2 [label="Factor"];
+  n3 [label="3"];
+  n4 [label="*"];
+  n4 [label="*"];
+  n5 [label="Factor"];
+  n5 [label="Factor"];
+  n6 [label="2"];
+  n7 [label="Factor"];
+  n7 [label="Factor"];
+  n8 [label="5"];
+
+  n0 -> n1 // "Startgen...rithExpr" -> "+"
+  n1 -> n2 // "+" -> "Factor"
+  n2 -> n3 // "Factor" -> "3"
+  n1 -> n4 // "+" -> "*"
+  n4 -> n5 // "*" -> "Factor"
+  n5 -> n6 // "Factor" -> "2"
+  n4 -> n7 // "*" -> "Factor"
+  n7 -> n8 // "Factor" -> "5"
+
+}
