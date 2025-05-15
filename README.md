@@ -19,7 +19,7 @@
 <h2>🚀 How to Run</h2>
 <ol>
   <li>Make sure you have Java and Graphviz 2.38 installed.</li>
-  <li>Clone the repository: <code>git clone https://github.com/your-username/your-repo-name.git</code></li>
+  <li>Clone the repository: <code>git clone https://github.com/ahmedKhaled365/Compiler.git</code></li>
   <li>Compile the Java files using your preferred method or an IDE like IntelliJ or Eclipse.</li>
   <li>Run the main class and either provide a path to your C++ <code>.txt</code> file or enter code in the GUI.</li>
 </ol>
